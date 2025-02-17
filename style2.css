@@ -1,0 +1,115 @@
+body{
+    padding: 50px;
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #ebefff;
+    border-radius: 130px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 440px;
+    height: 130px;
+    margin: 20px;
+    transform: translate(380px, 50px);
+    position: absolute;
+    z-index: 999;
+    
+}
+.container2{
+    background-color: #ebefff;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 440px;
+    height: 510px;
+    transform: translate(400px, 170px);
+}
+.imgprofil{
+    border-radius: 120px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    transform: translate(-5px, -5px);
+}
+.lulus{
+    border-radius: 20px;
+    background-color: #e4eaff;
+    border: 1px solid rgb(0, 0, 0);
+    width: 60px;
+    height: 20px;
+    transform: translatey(-30px);
+}
+.lulus2{
+    border-radius: 20px;
+    background-color: #e4eaff;
+    border: 1px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 20px;
+    transform: translate(5px,-30px);
+}
+.conts1{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 35px;
+    transform: translateY(5px);
+}
+.cardpen{
+    border-radius: 20px;
+    border: 1px solid ;
+    width: 170px;
+    transform: translateX(-22px);
+    height: 20px;
+    background-color: #fff;
+}
+.cardpen>h5{
+    text-align: center;
+    transform: translateY(-17px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+}
+.cardpen1{
+    border-radius: 10px;
+    border: 1px solid ;
+    width: 170px;
+    height: 90px;
+    background-color: #fff;
+    transform: translate(-22px, 7px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardlam{
+    background-color: white;
+    text-align: center;
+    width: 170px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid ;
+    transform: translate(135px, -25px);
+    z-index: 9999;
+    position: absolute;
+}
+.cardlam>h5{
+    transform: translateY(-17px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.conts3{
+    border-radius: 10px;
+    border: 1px solid ;
+    width: 410px;
+    height: 150px;
+    background-color: #fff;
+    transform: translate(15px, -15px);
+    margin-top: 10px;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
